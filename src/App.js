@@ -1,10 +1,12 @@
 import './App.css';
+import MovieForm from './components/MovieForm'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Start</h1>
+        <p>The Movie Form:</p>
+        <MovieForm />
       </header>
     </div>
   );
